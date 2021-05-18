@@ -1,10 +1,11 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hello and welcome my blog. 
 
-![Image of fast.ai logo](images/logo.png)
+## Projects
 
-## This is a title
+# is_duckworth_it
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file.
+This project was created because I was curious as to how accurate duckworth lewis stern actually is (mostly due to South Africa getting the short end of this stick a couple of times). The project link can be found [here](https://github.com/johan010/is-duckworth-it)
+
 
 
 #more text
