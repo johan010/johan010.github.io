@@ -1,1 +1,1 @@
-## Is duckworth Lewis worth it?
+# Is duckworth Lewis worth it?
