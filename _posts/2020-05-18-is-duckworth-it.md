@@ -4,7 +4,7 @@ This project was created because I was curious as to how accurate duckworth lewi
 
 I started off trying to do this using cricinfo's Statsguru, maybe I didn't know how, but it did not seem possible to do so. So I created this project with the following aim:
 
-> **Calculate the accuracy of DLS at different point of a chasing ODI innings. To do this I would need to get ball by ball data, process that data into useable format, calculate DLS at different points of the 2nd innings of each match, see if the current total is bigger or smaller than the DLS par score, compare that to the team that actually won the match and finally see how often DLS got it right.**
+> ***Calculate the accuracy of DLS at different point of a chasing ODI innings. To do this I would need to get ball by ball data, process that data into useable format, calculate DLS at different points of the 2nd innings of each match, see if the current total is bigger or smaller than the DLS par score, compare that to the team that actually won the match and finally see how often DLS got it right.***
 
 # Getting the data
 I realised that cricinfo is stingy with providing ball by ball data, so I found cricsheet. They provide ball by ball match data in .yaml format, which is exactly what I needed. So I fetched all the matches and saved it in a local directory. My project repo readme provides instructions for anyone that wants to do the same. The data inlcudes smaller nations ODI's like Nepal.
@@ -14,15 +14,15 @@ To get the data into a useable format, I had to do a lot of processing. I proces
 
 # Results
 In the end the data contained a total of 1722 male ODI's with the earliest match being start of 2004. Only matches where there were no overs missed in the game was considered to avoid complicating the DLS calculations. The results can be seen in the following graph:
-![image1](images/male_odi.png)
+![image1](/images/male_odi.png)
 
 The DLS accuracy increases steadily as the number of overs bowled increases. This demonstrates also why DLS is only used when a minimum of 20 overs has been bowled, to avoid the decreased accuracy at the start of the innings. Towards the end of the innings the accuracy approaches 90% and stays fairly constant from over 38 onwards. It would be interesting to see whether the accuracy of DLS changes when the team is aware of the DLS target and there is a threat of rain. Obviously this is difficult to get from this data and would probably require manually checking where this happened.
 
 ### DLS by year
 I thought it would be interesting to see how well DLS perfromed each year since 2004. I thought the newer way of playing cricket with the changes in rules might make it less accurate over time, but from this graph this was not seen to clearly be the case
-![image2](images/dls_acc_by_year.png)
+![image2](/images/dls_acc_by_year.png)
 To confirm this I drew the average accuracy accross all overs after over 20 for each year. This also confirms no decrease in DLS accuracy over time.
-![image3](images/avg_acc_by_year.png)
+![image3](/images/avg_acc_by_year.png)
 
 # todo
 do the same for t20's and compare to ODI's
