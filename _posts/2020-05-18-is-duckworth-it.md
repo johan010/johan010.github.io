@@ -28,7 +28,7 @@ The DLS accuracy increases steadily as the number of overs bowled increases. Thi
 I thought it would be interesting to see how well DLS perfromed each year since 2004. I thought the newer way of playing cricket with the changes in rules might make it less accurate over time, but from this graph this was not seen to clearly be the case
 ![image2](/images/dls_acc_by_year.png)
 To confirm this I drew the average accuracy accross all overs after over 20 for each year. This also confirms no decrease in DLS accuracy over time.
-![image3](/https://raw.githubusercontent.com/johan010/johan010.github.io/master/images/avg_acc_by_year.png)
+![image3](/images/avg_acc_by_year.png)
 
 # todo
 do the same for t20's and compare to ODI's
