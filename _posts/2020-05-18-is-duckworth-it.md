@@ -6,6 +6,10 @@ I started off trying to do this using cricinfo's Statsguru, maybe I didn't know 
 
 > ***Calculate the accuracy of DLS at different point of a chasing ODI innings. To do this I would need to get ball by ball data, process that data into useable format, calculate DLS at different points of the 2nd innings of each match, see if the current total is bigger or smaller than the DLS par score, compare that to the team that actually won the match and finally see how often DLS got it right.***
 
+Warning small rant:
+
+_It turns out that the actual calculations used for DLS at the top level is not made public for whatever reason, Which to me is a bit weird. I am not saying it is for nefarious reasons, but I can forsee a situation where DLS can be tweaked to advantage certain teams, e.g teams with higher run rate at the end of games, or teams who bat deep, etc. It would in my opinion be in the interest of all cricket fans if DLS was transparent._
+
 # Getting the data
 I realised that cricinfo is stingy with providing ball by ball data, so I found cricsheet. They provide ball by ball match data in .yaml format, which is exactly what I needed. So I fetched all the matches and saved it in a local directory. My project repo readme provides instructions for anyone that wants to do the same. The data inlcudes smaller nations ODI's like Nepal.
 
