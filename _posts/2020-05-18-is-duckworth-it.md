@@ -10,6 +10,8 @@ Warning small rant:
 
 _It turns out that the actual calculations used for DLS at the top level is not made public for whatever reason, Which to me is a bit weird. I am not saying it is for nefarious reasons, but I can forsee a situation where DLS can be tweaked to advantage certain teams, e.g teams with higher run rate at the end of games, or teams who bat deep, etc. It would in my opinion be in the interest of all cricket fans if DLS was transparent._
 
+This version of DLS was used up to 2004, after which sercret ICC methods were used. I would assume that any newer methods would be more accurate, keep that in mind when interpreting the results.
+
 # Getting the data
 I realised that cricinfo is stingy with providing ball by ball data, so I found cricsheet. They provide ball by ball match data in .yaml format, which is exactly what I needed. So I fetched all the matches and saved it in a local directory. My project repo readme provides instructions for anyone that wants to do the same. The data inlcudes smaller nations ODI's like Nepal.
 
